@@ -2,7 +2,7 @@
 
 echo "welcome to Email Validation"
 
-pattern="^[0-9a-zA-Z]"
+pattern="^[0-9a-zA-Z]*@[0-9a-zA-Z]"
 
 read -p "Enter Email Id = " email
 
